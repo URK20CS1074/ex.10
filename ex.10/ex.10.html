@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta name="viewport" content="width=device-width, initial-
+scale=1.0" />
+
+<title>User Registration Form</title>
+<link href="C:\Users\kovur\OneDrive\Documents\ex.10\style.html">
+</head>
+<body><center>
+<h1 style="color: blue;">User Registration Form</h1>
+<br>
+<div class="d1">
+<form action="/server" method="post" >
+Name <input type="text" name="data1"ng-model="name"><br><br>
+password <input type="password" name="data2" ng-model="pass"><br><br>
+Age <input type="text" name="data3" ng-model="age"><br><br>
+Mobile number <input type="text" name="data4" ng-model="num"><br><br>
+email <input type="email" name="data5" ng-model="email"><br><br>
+gender<input type="radio" name="data6" value="gender" ng-model="name">Male</input><input type="radio" name="data6" value="Female">Female</input><br><br>
+State<select id="data7" ng-model="state">
+    <option value="kerala">kerala</option>
+    <option value="ap">ap</option>
+    <option value="tn">tn</option>
+    <option value="gujarat">gujarat</option>
+  </select>
+skills <input type="checkbox" name="data8" value="JS">JS</input><input type="checkbox" name="data8" value="python">python</input><br><br></div>
+<button type="submit">Submit</button></center>
+</form>
+</body>
+</html>
